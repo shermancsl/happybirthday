@@ -1,6 +1,6 @@
 let clicks = 0;
 
-const maxClicks = 20;
+const maxClicks = 27;
 
 const egg = document.getElementById("egg");
 const counter = document.getElementById("counter");
@@ -27,7 +27,7 @@ egg.addEventListener("click", function () {
     clicks++;
 
     // Update counter
-    counter.textContent = `${clicks} / ${maxClicks}`;
+    counter.textContent = `${clicks}`;
 
 
     // Shake egg
